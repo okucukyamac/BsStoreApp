@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{BCB21EDC-618C-4D59-99AD-505ADA1D11BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{EDEABE11-7D74-4BEA-86A9-A3EC3B52AB30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{D439EBA3-355D-416D-B041-9046CC30A4E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCB21EDC-618C-4D59-99AD-505ADA1D11BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB21EDC-618C-4D59-99AD-505ADA1D11BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB21EDC-618C-4D59-99AD-505ADA1D11BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB21EDC-618C-4D59-99AD-505ADA1D11BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDEABE11-7D74-4BEA-86A9-A3EC3B52AB30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDEABE11-7D74-4BEA-86A9-A3EC3B52AB30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDEABE11-7D74-4BEA-86A9-A3EC3B52AB30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDEABE11-7D74-4BEA-86A9-A3EC3B52AB30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D439EBA3-355D-416D-B041-9046CC30A4E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D439EBA3-355D-416D-B041-9046CC30A4E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D439EBA3-355D-416D-B041-9046CC30A4E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D439EBA3-355D-416D-B041-9046CC30A4E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89A32B68-2DEA-4C64-A2E3-AA3A3D6E9DCF}
+	EndGlobalSection
+EndGlobal
